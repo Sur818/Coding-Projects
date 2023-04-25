@@ -1,0 +1,9 @@
+hello my name is suraj singh
+no of word=6
+no of charecter =28
+no of blank spaces=0
+no of chacrecter in uppercase=0
+no of charecter in lowercase=23
+no of digit=0
+no of specialcharector=5
+no of lines in text=1

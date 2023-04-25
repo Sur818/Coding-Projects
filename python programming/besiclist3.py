@@ -1,0 +1,9 @@
+a=eval(input("enter physhics marks:-"))
+b=eval(input("enter math marks:-"))
+c=eval(input("enter english marks:-"))
+d=eval(input("enter chemestry marks:-"))
+e=eval(input("enter hindi marks:-"))
+sum=a+b+c+d+e
+print("total marks=",sum)
+per=sum/5
+print("percentage=",per)

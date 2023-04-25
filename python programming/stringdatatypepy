@@ -1,0 +1,6 @@
+s='hello word'
+print(s)
+s1="hello word"
+print(s1)
+n=len(s)
+print("length of string=",n)

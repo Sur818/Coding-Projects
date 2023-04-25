@@ -1,0 +1,5 @@
+dict=eval(input("enter dictionary:-"))
+res=sorted(dict.items())
+print(res)
+res1=sorted(dict.items(),reverse=True)
+print(res1)

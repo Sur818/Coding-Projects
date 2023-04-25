@@ -1,0 +1,5 @@
+#tuple1=(1,2,"hello",3,5)
+#tuple2=(1,5,"word",5.6)
+#print(tuple1+tuple2)
+tuple1, tuple2 = (123, 'xyz'), (456, 'abc')
+print(len(tuple1)+len(tuple2))

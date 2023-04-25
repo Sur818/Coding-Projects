@@ -1,0 +1,5 @@
+f=open("file45.txt",'w+')
+print(f.read())
+f.write(" hello friend")
+f.seek(0)
+print(f.read())

@@ -1,0 +1,3 @@
+suraj singh is my name
+ no of word in txt=5
+ no of word in txt=10

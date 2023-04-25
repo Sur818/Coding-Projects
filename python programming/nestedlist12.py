@@ -1,0 +1,5 @@
+l=eval(input("enter nested list:-"))
+print("sort the sublist by length and value")
+l=sorted(x)
+l=sorted(l,key=lambda x:len(x))
+print(l)

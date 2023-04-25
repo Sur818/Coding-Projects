@@ -1,0 +1,23 @@
+n=input("enter no:-")
+n=' '.join(n)
+for i in n :
+	if i=='0':
+	  print("zero",end=' ') 
+	if i=='1':
+	  print("one",end=' ')
+	if i=='2':
+	  print('two',end=' ')
+	if i=='3':
+	  print('three',end=' ')
+	if i=='4':
+	  print('four',end=' ')
+	if i=='5':
+	  print('five',end=' ')
+	if i=='6':
+	  print('six',end=' ')
+	if i=='7':
+	  print('seven',end=' ')
+	if i=='8':
+	  print("eight",end=' ')
+	if i=='9':
+	  print("nine",end=' ')

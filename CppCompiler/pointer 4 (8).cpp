@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+void array_reverse(char *a,int l)
+{
+int i;
+for(i=0;i<l;i++)
+{
+cout<<a[l-1-i];
+}
+cout<<" ";
+}
+
+
+int main()
+{
+  char ar[100];
+char a[10];
+char *p=ar;
+cout<<"enter string:-";
+gets(ar);
+int i,n,j,l=0,k=0;
+n=strlen(ar);
+ar[n]=' ';
+for(i=0;i<n+1;i++)
+{
+if(*(p+i)==' ')
+{
+for(j=k;j<i;j++)
+{
+a[l++]=ar[j];
+}
+array_reverse(a,l);
+k=i+1;
+l=0;
+}
+}
+return 0;
+}
+
+
+

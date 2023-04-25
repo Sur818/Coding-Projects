@@ -1,0 +1,7 @@
+a=(1,2,3,4)
+print(a)
+b=max(a)
+c=(min(a))
+sum=b+c
+print("sum of max and min element in tuple")
+print(sum)

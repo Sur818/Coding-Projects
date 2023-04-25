@@ -1,0 +1,7 @@
+def func(a,b):
+	return a+b
+
+
+l1=[10,20,30,40,60]
+l2=[10,20]
+print(list(map(func,l1,l2)))

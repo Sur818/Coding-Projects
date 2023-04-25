@@ -1,0 +1,5 @@
+f=open("file45.txt",'w+')
+f.write(input("inter string:-"))
+f.seek(0)
+print(f.read())
+f.write("thank you!")

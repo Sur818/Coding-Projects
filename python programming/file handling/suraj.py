@@ -1,0 +1,5 @@
+f=open("first.txt",'w')
+f.write("hello",)
+f.writelines("suraj singh")
+f=open("first.txt",'r')
+f.read()

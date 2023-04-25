@@ -1,0 +1,5 @@
+f=open("file6.txt",'r+')
+f.write(input("enter  string:-"))
+f.seek(0)
+a=f.read()
+print(a)

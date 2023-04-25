@@ -1,0 +1,11 @@
+n=input("enter no:-").split(" ")
+print(n)
+print(tuple(n))
+print(set(n))
+l=list(n)
+d={'1':'hello','2':'bye','3':'suraj'}
+print(d)
+print(list(d))
+print(tuple(d))
+s="".join(d)
+print(s)

@@ -1,0 +1,6 @@
+package Sample;
+
+ class Oops
+ {
+
+}
